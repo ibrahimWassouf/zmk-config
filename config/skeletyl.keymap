@@ -10,33 +10,13 @@
 #define NUM     2
 
 / {
-    behaviors {
-        
-        hm: homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <175>;
-            quick-tap-ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-        hmp: homerow_mods_pinky {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-    };
-
-    keymap {
+       keymap {
         compatible = "zmk,keymap";
 
         colemak_dh {
             bindings = <
     &kp Q       &kp W       &kp F        &kp P        &kp B           &kp J       &kp L       &kp U       &kp Y           &kp SEMI
-    &hmp LALT A &hm LGUI R  &hm LSHFT S  &hm LCTRL T  &kp G           &kp M       &hm LCTRL N &hm LSHFT E &hm LGUI I      &hmp RALT O
+    &kp A       &kpR        &kp S        &kp T        &kp G           &kp M       &kp N       &kp E       &kp I           &kp O
     &kp Z       &kp X       &kp C        &kp D        &kp V           &kp K       &kp H       &kp COMMA   &kp DOT         &kp FSLH
                             &kp SPACE    &mo NAV      &kp ESC         &kp RET     &mo NUM     &kp BSPC
             >;
@@ -45,7 +25,7 @@
         nav_layer {
             bindings = <
     &none       &none       &none       &none         &none           &none       &none       &none       &none       &none
-    &kp LALT    &kp LGUI    &kp LSHFT   &kp LCTRL     &kp LEFT        &kp DOWN    &kp UP      &kp RIGHT   &kp SQT     &kp GRAVE
+    &kp LALT    &kp LGUI    &kp LSHFT   &kp LCTRL     &kp none        &kp DOWN    &kp UP      &kp RIGHT   &kp SQT     &kp GRAVE
     &none       &none       &none       &none         &none           &none       &none       &none       &kp         &kp TILDE
                         	&kp SPACE   &trans        &kp ESC         &kp RET     &none       &none     
             >;
