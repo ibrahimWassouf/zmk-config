@@ -14,7 +14,6 @@
         
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
             #binding-cells = <2>;
             tapping-term-ms = <175>;
             quick-tap-ms = <0>;
@@ -23,7 +22,6 @@
         };
         hmp: homerow_mods_pinky {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick-tap-ms = <0>;
@@ -38,7 +36,7 @@
         colemak_dh {
             bindings = <
     &kp Q       &kp W       &kp F        &kp P        &kp B           &kp J       &kp L       &kp U       &kp Y           &kp SEMI
-    &hmp LALT A &hm LGUI R  &hm LSHFT S  &hm LCTRL T  &kp G           &kp M       &hm RCTRL N &hm RSHFT E &hm RGUI I      &hmp RALT O
+    &hmp LALT A &hm LGUI R  &hm LSHFT S  &hm LCTRL T  &kp G           &kp M       &hm LCTRL N &hm LSHFT E &hm LGUI I      &hmp RALT O
     &kp Z       &kp X       &kp C        &kp D        &kp V           &kp K       &kp H       &kp COMMA   &kp DOT         &kp FSLH
                             &kp SPACE    &mo NAV      &kp ESC         &kp RET     &mo NUM     &kp BSPC
             >;
