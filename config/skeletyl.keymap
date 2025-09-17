@@ -1,7 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/outputs.h>
 
 // Modified keymap based on personal experience, with some improvements based on Miryoku layout.
 
@@ -25,7 +24,7 @@
         nav_layer {
             bindings = <
     &none       &none       &none       &none         &none           &none       &none       &none       &none       &none
-    &kp LALT    &kp LGUI    &kp LSHFT   &kp LCTRL     &none        &kp DOWN    &kp UP      &kp RIGHT   &kp SQT     &kp GRAVE
+    &kp LALT    &kp LGUI    &kp LSHFT   &kp LCTRL     &none           &kp DOWN    &kp UP      &kp RIGHT   &kp SQT     &kp GRAVE
     &none       &none       &none       &none         &none           &none       &none       &none       &kp         &kp TILDE
                         	&kp SPACE   &trans        &kp ESC         &kp RET     &none       &none     
             >;
