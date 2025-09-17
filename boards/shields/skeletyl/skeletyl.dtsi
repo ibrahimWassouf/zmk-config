@@ -3,7 +3,7 @@
 / {
 	chosen {
 		zmk,kscan = &kscan0;
-		zmk,physical--layout = &physical_layout0;
+		zmk,physical-layout = &physical_layout0;
 		zmk,matrix_transform = &default_transform;
 	};
 	physical_layout0: physical_layout_0 { // First physical layout, use different naming for other layouts
