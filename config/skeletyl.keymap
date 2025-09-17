@@ -4,10 +4,6 @@
 
 // Modified keymap based on personal experience, with some improvements based on Miryoku layout.
 
-#define COLDH   0
-#define NAV     1
-#define NUM     2
-
 / {
        keymap {
         compatible = "zmk,keymap";
@@ -17,7 +13,7 @@
     &kp Q       &kp W       &kp F        &kp P        &kp B           &kp J       &kp L       &kp U       &kp Y           &kp SEMI
     &kp A       &kp R        &kp S        &kp T        &kp G           &kp M       &kp N       &kp E       &kp I           &kp O
     &kp Z       &kp X       &kp C        &kp D        &kp V           &kp K       &kp H       &kp COMMA   &kp DOT         &kp FSLH
-                            &kp SPACE    &mo NAV      &kp ESC         &kp RET     &mo NUM     &kp BSPC
+                            &kp SPACE    &mo 1      &kp ESC         &kp RET     &mo 2     &kp BSPC
             >;
         };
 
@@ -26,7 +22,7 @@
     &none       &none       &none       &none         &none           &none       &none       &none       &none       &none
     &none       &none       &none       &none         &none           &kp DOWN    &kp UP      &kp RIGHT   &kp SQT     &kp GRAVE
     &none       &none       &none       &none         &none           &none       &none       &none       &kp         &kp TILDE
-                        	&kp SPACE   &trans        &kp ESC         &kp RET     &none       &none     
+                        	&kp SPACE   &trans        &kp ESC         &kp RET     &trans       &none     
             >;
         };
 
