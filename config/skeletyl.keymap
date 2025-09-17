@@ -24,7 +24,7 @@
         nav_layer {
             bindings = <
     &none       &none       &none       &none         &none           &none       &none       &none       &none       &none
-    &kp LALT    &kp LGUI    &kp LSHFT   &kp LCTRL     &none           &kp DOWN    &kp UP      &kp RIGHT   &kp SQT     &kp GRAVE
+    &none       &none       &none       &none         &none           &kp DOWN    &kp UP      &kp RIGHT   &kp SQT     &kp GRAVE
     &none       &none       &none       &none         &none           &none       &none       &none       &kp         &kp TILDE
                         	&kp SPACE   &trans        &kp ESC         &kp RET     &none       &none     
             >;
