@@ -44,10 +44,10 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp Q       &kp W       &kp F       &kp P         &kp B       &kp J   &kp L        &kp U         &kp Y        &kp SEMI
-   &hml LALT A  &hml LGUI R  &hml LSHFT S &hml LCTRL T   &kp G   &kp M &hmr RCTRL N   &hmr RSHFT E  &hmr RGUI I  &hmr RALT O
-   &kp Z       &kp X       &kp C       &kp D         &kp V       &kp K   &kp H        &kp COMMA     &kp DOT      &kp FSLH
-                           &kp SPACE   &mo 1         &kp ESC                          &kp RET &mo 2 &kp BSPC
+   &kp Q        &kp W        &kp F        &kp P      &kp B            &kp J    &kp L        &kp U         &kp Y        &kp SEMI
+   &hml LALT A  &hml LGUI S  &hml LSHFT R &hml LCTRL T  &kp G         &kp M    &hmr RCTRL N &hmr RSHFT E  &hmr RGUI I  &hmr RALT O
+   &kp Z        &kp X        &kp C        &kp D      &kp V            &kp K    &kp H        &kp COMMA     &kp DOT      &kp FSLH
+                             &kp SPACE    &mo 1       &kp ESC         &kp RET  &mo 2        &kp BSPC
                         >;
                 };
                 lower_layer {
@@ -58,10 +58,10 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &trans   &trans   &trans &trans    &trans
-    &kp LALT     &kp LGUI     &kp LSHFT    &kp LCTRL    &trans         &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp SQT
-    &trans       &trans       &trans       &bt BT_CLR   &trans         &trans   &trans   &trans &trans    &trans
-                 &kp SPACE    &trans       &kp ESC      &kp RET        &trans   &kp BSPC
+    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &trans     &trans   &trans &trans    &trans
+    &kp LALT     &kp LGUI     &kp LSHFT    &kp LCTRL    &trans         &kp LEFT   &kp DOWN &kp UP &kp RIGHT &kp SQT
+    &trans       &trans       &trans       &bt BT_CLR   &trans         &caps_word &kp TAB  &trans &trans    &trans
+                              &kp SPACE    &trans       &kp ESC        &kp RET    &trans   &kp BSPC
                         >;
                 };
 
@@ -73,10 +73,10 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans   &kp N7   &kp N8   &kp N9 &kp PRCNT     &kp LSHFT &trans    &kp LPAR  &kp RPAR &trans
+   &trans   &kp N7   &kp N8   &kp N9   &kp PRCNT   &sk LSHFT &trans    &kp LPAR  &kp RPAR &trans
    &trans   &kp N4   &kp N5   &kp N6   &trans      &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH
-   &trans   &kp N1   &kp N2   &kp N3   &trans      &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE 
-            &kp SPACE   &kp N0   &kp ESC   &kp RET   &trans    &kp RALT
+   &trans   &kp N1   &kp N2   &kp N3   &kp DOT     &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE 
+                  &kp SPACE   &kp N0   &kp ESC     &kp RET   &trans    &kp RALT
                         >;
                 };
         };
