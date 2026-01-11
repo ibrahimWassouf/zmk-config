@@ -39,10 +39,10 @@
                 default_layer {
                         display-name = "Default Layer";
                         bindings = <
-   &kp Q        &kp W        &kp F        &kp P         &kp B            &kp J    &kp L        &kp U         &kp Y        &kp SEMI
-   &hml LALT A  &hml LGUI S  &hml LSHFT R &hml LCTRL T  &kp G            &kp M    &hmr RCTRL N &hmr RSHFT E  &hmr RGUI I  &hmr RALT O
-   &kp Z        &kp X        &kp C        &kp D         &kp V            &kp K    &kp H        &kp COMMA     &kp DOT      &kp FSLH
-                             &kp SPACE    &lt 1 TAB     &lt 4 ESC          &kp RET  &lt 2 BSPC   &lt 3 DEL
+   &kp Q        &kp W        &kp F        &kp P         &kp B            &kp J    &kp L        &kp U            &kp Y         &kp SEMI
+   &kp A        &kp S        &kp R        &kp T         &kp G            &kp M    &kp N        &kp E            &kp I         &kp O
+   &hml LALT Z  &hml LGUI X  &hml LSHFT C &hml LCTRL D  &kp V            &kp K    &hmr RCTRL H &hmr RSHFT COMMA &hmr RGUI DOT &hmr RALT FSLH
+                             &kp SPACE    &lt 1 TAB     &lt 5 ESC          &lt 4 RET  &lt 2 BSPC   &lt 3 DEL
                         >;
                 };
 				
@@ -67,6 +67,16 @@
                 };
 
 				layer_3 {
+					display_name = "Symbol Layer";
+					bindings = <
+   &kp LBRC  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RBRC   &trans  &trans    &trans    &trans   &trans  
+   &kp DQT   &kp DLLR  &kp PRCNT  &kp CARET &kp PLUS   &trans  &kp RCTRL &kp RSHFT &kp RGUI &kp RALT
+   &kp TILDE &kp EXCL  &kp AT     &kp HASH  &kp PIPE   &trans  &trans    &trans    &trans   &trans
+                &kp KP_LPAR   &kp KP_RPAR  &kp UNDER   &trans  &trans    &trans
+					>;
+				}
+
+				layer_4 {
 					display-name = "Func Layer";
 					bindings = <
 	&kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &trans     &trans     &trans    &trans
@@ -76,7 +86,7 @@
 					>;
 				};
 
-				layer_4 {
+				layer_5 {
 					display-name = "BT Layer";
 					bindings = <
 	&trans  &trans  &trans  &trans  &trans    &trans        &trans       &trans        &trans        &trans
