@@ -67,7 +67,7 @@
                 };
 
 				layer_3 {
-					display_name = "Symbol Layer";
+					display-name = "Symbol Layer";
 					bindings = <
    &kp LBRC  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RBRC   &trans  &trans    &trans    &trans   &trans  
    &kp DQT   &kp DLLR  &kp PRCNT  &kp CARET &kp PLUS   &trans  &kp RCTRL &kp RSHFT &kp RGUI &kp RALT
